@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mainHeight">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginFive"
+        android:layout_marginLeft="@dimen/marginFive"
+        android:layout_marginTop="@dimen/marginFive"
+        android:layout_marginEnd="@dimen/marginFive"
+        android:layout_marginRight="@dimen/marginFive"
+        android:text="@string/title"
+        android:textSize="@dimen/sizeSmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/author" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginFifteen"
+        android:layout_marginLeft="@dimen/marginFifteen"
+        android:layout_marginTop="@dimen/marginTen"
+        android:layout_marginEnd="@dimen/marginFifteen"
+        android:layout_marginRight="@dimen/marginFifteen"
+        android:text="@string/author"
+        android:textSize="@dimen/sizeAuthor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/journal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginTwentyFive"
+        android:layout_marginLeft="@dimen/marginTwentyFive"
+        android:text="@string/journal"
+        android:textSize="@dimen/sizeSmall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginTwentyFive"
+        android:layout_marginLeft="@dimen/marginTwentyFive"
+        android:text="@string/year"
+        android:textSize="@dimen/sizeSmall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/journal"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/pages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/marginTwentyFive"
+        android:layout_marginRight="@dimen/marginTwentyFive"
+        android:text="@string/volume"
+        android:textSize="@dimen/sizeSmall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTextSize">15sp</dimen>
+    <dimen name="marginFive">5dp</dimen>
+    <dimen name="sizeSmall">14sp</dimen>
+    <dimen name="mainHeight">120dp</dimen>
+    <dimen name="marginFifteen">15dp</dimen>
+    <dimen name="marginTen">10dp</dimen>
+    <dimen name="sizeAuthor">16sp</dimen>
+    <dimen name="marginTwentyFive">25dp</dimen>
+</resources>
